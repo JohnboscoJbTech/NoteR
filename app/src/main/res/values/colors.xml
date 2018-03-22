@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d9827</color>
+    <color name="colorPrimaryDark">#3D9827</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="notepad_paper">#ffffff</color>
+    <color name="notepad_lines">#3D9827</color>
+    <color name="dashboard_bg">#dfd2a8</color>
+    <color name="help_bg">#bdc6be</color>
+</resources>

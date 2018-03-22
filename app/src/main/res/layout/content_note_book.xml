@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content_note"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.boscojbtechventures.noter.NoteBook"
+    tools:showIn="@layout/app_bar_note_book">
+
+    <LinearLayout
+        android:id="@+id/drawing_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/drawing_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/formatting_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/edit_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/formatting_actions"
+        android:fillViewport="true">
+
+        <com.boscojbtechventures.noter.Model.NotePaper
+            android:id="@+id/note_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="web|email"
+            android:gravity="top"
+            android:scrollHorizontally="false" />
+
+        <!--<com.boscojbtechventures.noter.Model.CustomExBookView
+            android:id="@+id/note_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoLink="web|email"
+            android:gravity="top"
+            android:scrollHorizontally="false" />-->
+
+    </ScrollView>
+</RelativeLayout>

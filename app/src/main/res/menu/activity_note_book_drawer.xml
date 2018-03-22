@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_new_note"
+            android:icon="@mipmap/new_note"
+            android:title="New Note" />
+        <item
+            android:id="@+id/nav_open_note"
+            android:icon="@mipmap/open_note"
+            android:title="Open Note" />
+        <item
+            android:id="@+id/nav_save_note_as"
+            android:icon="@mipmap/save_action"
+            android:title="Save Note As" />
+        <item
+            android:id="@+id/nav_open_folder"
+            android:icon="@mipmap/open_note"
+            android:title="Open Containing Folder" />
+        <item
+            android:id="@+id/nav_rename"
+            android:icon="@mipmap/new_note"
+            android:title="Rename Note" />
+        <item
+            android:id="@+id/nav_close_note"
+            android:icon="@mipmap/open_note"
+            android:title="Close Note" />
+    </group>
+
+    <item android:title="Externals">
+        <menu>
+            <item
+                android:id="@+id/menu_item_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:actionProviderClass="android.widget.ShareActionProvider" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">XeBook</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Dashboard texts -->
+    <string name="open_btn_description">Opens Explorer</string>
+    <string name="new_btn_description">Creates new Note</string>
+    <string name="options_btn_description">Opens Options</string>
+
+    <!--Utility actions-->
+    <string name="confirm_close">Do you want to exit the application?</string>
+    <string name="confirm_note_close">Do you want to save changes in the note?</string>
+    <string name="recent_note_delete">Undo delete note from recent list</string>
+    <string name="confirm_overwrite">Filename exists, Do you want to overwrite?</string>
+    <string name="confirm_keep_drawing">Do you want to keep the drawn object?</string>
+
+    <!-- Buttons -->
+
+    <!-- Note texts -->
+    <string name="note_name">newbook.txt</string>
+    <string name="empty_note">Empty notebook will not be saved</string>
+    <string name="saved_note">Notebook has been saved to %1$s folder</string>
+    <string name="incorrect_name">File name not correct or contains spaces</string>
+    <string name="space_not_enough">There is not enough Space in your SDCard, You need at least 20MB of free space</string>
+    <string name="insert_sdcard">Insert an SDCard to save note</string>
+    <string name="no_permission">You have no permission to write to the disk</string>
+    <string name="error_saving">There was an error saving the file</string>
+    <string name="no_changes_made">No Changes to be saved</string>
+
+    <!-- About and note instructions -->
+    <string name="about_title">About Notebook</string>
+    <string name="about_contents">&#160; XeBook is a text editing mobile application, developed to address the need of taking note of specific events at ease &lt;br /&gt;
+        &lt;b&gt;&lt;br /&gt; &#160;Developer &lt;/b&gt; &#160; Ezekwe Johnbosco &lt;br /&gt;
+        &lt;b&gt;&lt;br /&gt; &#160;Version &lt;/b&gt; &#160; 1.0&lt;br /&gt;
+        &lt;b&gt;&lt;br /&gt; &#160;Contact &lt;/b&gt; &#160; multiplechuks@yahoo.com
+    </string>
+
+    <string name="instruction_title">Instructions</string>
+    <string name="instruction_contents">&lt;b&gt; &lt;u&gt; Creating a new Book: &lt;/u&gt; &lt;/b&gt;&lt;br /&gt;
+        &#160;Create a new notebook by clicking on the new note icon&lt;br/&gt;
+        &lt;b&gt; &lt;u&gt; Opening a Book: &lt;/u&gt; &lt;/b&gt;&lt;br /&gt;
+        &#160;Open a note by clicking on the open note icon, and selecting the note you want to open from the list&lt;br/&gt;
+        &lt;b&gt; &lt;u&gt; Others: &lt;/u&gt; &lt;/b&gt;&lt;br /&gt;
+        &#160;You can share a note or send the note to others by opening a note an on the options menu select share&lt;br/&gt;
+    </string>
+
+    <!-- Other Utils -->
+    <string name="filename_empty">No changes made, notename is empty</string>
+
+    <!-- Speech to text -->
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="title_activity_note_book">NoteBook</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_about">About</string>
+</resources>
